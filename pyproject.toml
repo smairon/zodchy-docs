@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "zodchy-tech"
+version = "0.1.0"
+description = ""
+authors = ["Feofilaktov, Sergey <man@smairon.ru>"]
+readme = "README.md"
+packages = [{include = "zodchy"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs-material = "^9.5.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
