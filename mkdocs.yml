@@ -42,4 +42,3 @@ nav:
       - 'Data pipelines':
           - 'Streamlord': 'supplements/pipelines/streamlord.md'
   - 'Application bootstrap': 'supplements/bootstrap.md'
-`
