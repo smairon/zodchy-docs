@@ -13,3 +13,33 @@ theme:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+nav:
+  - Introduction: index.md
+  - Codex: codex.md
+  - Components:
+      - DI:
+          - Contracts: 'components/di/contracts.md'
+          - Zorge: 'components/di/zorge.md'
+      - CQRS:
+          - Contracts: 'components/cqrs/contracts.md'
+          - Pancho: 'components/cqrs/pancho.md'
+      - Storage:
+          - Contracts: 'components/storage/contracts.md'
+          - Hermitage: 'components/storage/hermitage.md'
+  - Adapters:
+      - WEB:
+          - FastAPI: 'adapters/web/fastapi.md'
+      - RDBS:
+          - SQLAlchemy: 'adapters/rdbs/sqlalchemy.md'
+  - Supplements:
+      - Toolsets:
+          - Identity: 'supplements/toolsets/identity.md'
+          - Security: 'supplements/toolsets/security.md'
+          - Patterns: 'supplements/toolsets/patterns.md'
+      - Storage:
+          - 'SQLAlchemy Schema Builder': 'supplements/storages/alchemy_schema_builder.md'
+          - 'Alembic tools': 'supplements/storages/alembic_tools.md'
+      - 'Data pipelines':
+          - 'Streamlord': 'supplements/pipelines/streamlord.md'
+  - 'Application bootstrap': 'supplements/bootstrap.md'
+`

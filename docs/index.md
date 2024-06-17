@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Introduction
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
@@ -13,11 +13,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ```py linenums="1"
 def main():
-    print("Hello!!!") # (1)
+    print("Hello!!!")  # (1)
 ```
 
-1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
-    text__, images, ... basically anything that can be written in Markdown.
+1. :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
+   text__, images, ... basically anything that can be written in Markdown.
 
 ## Project layout
 
