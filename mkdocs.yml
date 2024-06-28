@@ -15,7 +15,10 @@ theme:
     - content.code.annotate
 nav:
   - Introduction: index.md
-  - Codex: codex.md
+  - Base definitions:
+    - Codex: 'base/codex.md'
+    - Operators: 'base/operators.md'
+    - Types: 'base/types.md'
   - Components:
       - DI:
           - Contracts: 'components/di/contracts.md'
