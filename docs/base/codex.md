@@ -62,10 +62,10 @@ class GetUsers(Query):
 
 # Form Query
 get_users_query = GetUsers(
-    user_id=FilterBit[int](operators.EQ(1)),
-    user_name=FilterBit[str](operators.LIKE('jhon')) + OrderBit(1),
-    created_at=OrderBit(2),
-    limit=SliceBit(100)
+    user_id=operators.EQ(1),
+    user_name=operators.LIKE('jhon') + operators.DESC(1),
+    created_at=operators.ASC(2),
+    limit=operators.LIMIT(100)
 )
 ```
 В данном примере GetUsers представляет запрос к данным с 
@@ -73,7 +73,9 @@ get_users_query = GetUsers(
 - опциональной сортировке итогового набора по признакам user_name, created_at с установкой приоритета,
 - опционального указания максимального размера итогового набора данных
 
-FilterBit является generic типом, в квадратных скобках указывает тип принимаемых значений.
+Описание модуля **operators** можно найти [здесь](./operators.md)
+
+FilterBit является generic типом, в квадратных скобках указывает тип принимаемых значений. 
 
 В клиентском коде следует избегать необходимости формирования запроса-значения (get_users_query) вручную, 
 лучше это делать через адаптеры.
