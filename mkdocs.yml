@@ -31,7 +31,7 @@ nav:
           - Hermitage: 'components/storage/hermitage.md'
       - Notations:
           - Query:
-              - Math: 'components/notations/math.md'
+              - Math: 'components/notations/query/math.md'
   - Adapters:
       - WEB:
           - FastAPI: 'adapters/web/fastapi.md'

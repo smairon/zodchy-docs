@@ -103,4 +103,4 @@ tokens = list(
 
 В качестве примера можно рассмотреть 
 [адаптер](https://github.com/smairon/zodchy-fastapi/blob/main/zodchy_fastapi/request/adapter.py) 
-Request моделей FastAPI в [сущности](../../../base/codex.md) CQEA архитектуры.
+Request моделей FastAPI в [сущности](../../../base/codex.md#qea) CQEA архитектуры.
