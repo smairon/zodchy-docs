@@ -1,5 +1,4 @@
 # Operators
-
 [Набор классов](https://github.com/smairon/zodchy/blob/main/zodchy/operators.py) для декларации операций с данными.
 
 Вместо тысячи абстрактных слов ниже приведен пример кода, для изучения операторов в реальном контексте. 
@@ -77,9 +76,7 @@ param13 = OrderParameter(
 param14 = SliceParameter("limit", operators.LIMIT(100))  # limit dataset with 100 rows
 param15 = SliceParameter("offset", operators.OFFSET(10))  # skip 10 rows of dataset
 ```
-
 Используя заданные выше параметры, можно сконструировать, к примеру, простой декларативный запрос к данным
-
 ```python
 query = (
     param4, 
@@ -91,7 +88,6 @@ query = (
 bucket = "users"
 result = some_kind_of_client.get_data(bucket, query)
 ```
-
 Здесь мы просим некоторой клиент сходить в некий бакет хранения "users" и вернуть 100 пользователей с id >= 4, 
 родившихся в 80-ые годы прошлого века, со статусом не 1 и не 2, отсортированных по дате создания.
 
