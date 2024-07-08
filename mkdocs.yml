@@ -27,7 +27,6 @@ nav:
           - Contracts: 'components/cqrs/contracts.md'
           - Pancho: 'components/cqrs/pancho.md'
       - Storage:
-          - Contracts: 'components/storage/contracts.md'
           - Hermitage: 'components/storage/hermitage.md'
       - Notations:
           - Query:

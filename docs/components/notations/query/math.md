@@ -5,6 +5,7 @@
 ```text
 k1=v1&k2=v2..&kn=vn
 ```
+
 - **ki** - название i-ого параметра
 - **vi** - токен i-ого значения
 
@@ -64,6 +65,14 @@ name=!~james # same as: name not ilike '%james%'
 birth_date=![1970-01-01, 2000-01-01] # same as: birth_date < 1970-01-01 or birth_date > 2000-01-01
 ```
 Задает инвертирование последующей операции над значением параметра
+
+### Пример запроса
+
+```text
+user_id=1&state={active,pending}&created_at=(,2024-07-01T00:00:00)
+```
+Здесь мы ищем записи у которых параметр user_id=1, state либо active либо pending, 
+а created_at старше 2024-07-01T00:00:00
 
 ## Парсер
 Для стека zodchy разработан 
