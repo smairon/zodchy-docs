@@ -21,11 +21,9 @@ nav:
     - Types: 'base/types.md'
   - Components:
       - DI:
-          - Contracts: 'components/di/contracts.md'
           - Zorge: 'components/di/zorge.md'
-      - CQRS:
-          - Contracts: 'components/cqrs/contracts.md'
-          - Pancho: 'components/cqrs/pancho.md'
+      - CQEA:
+          - Pancho: 'components/cqea/pancho.md'
       - Storage:
           - Hermitage: 'components/storage/hermitage.md'
       - Notations:
